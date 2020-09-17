@@ -1,0 +1,25 @@
+@media (max-width: 1199px) {
+    .social {
+        padding-top: 80px;
+        &__content {
+            margin-top: 50px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .social {
+    }
+}
+
+@media (max-width: 767px) {
+    
+}
+
+@media (max-width: 575px) {
+    .social {
+        &__title {
+            font-size: 30px;
+        }
+    }
+}

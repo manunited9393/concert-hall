@@ -1,0 +1,28 @@
+@import "base/resset";
+@import "base/variables";
+
+@import "blocks/header";
+@import "blocks/main";
+@import "blocks/info";
+@import "blocks/features";
+@import "blocks/gallery";
+@import "blocks/about";
+@import "blocks/contacts";
+@import "blocks/social";
+@import "blocks/footer";
+
+
+// media
+@import "media/header-media";
+@import "media/main-media";
+@import "media/info-media";
+@import "media/features-media";
+@import "media/gallery-media";
+@import "media/about-media";
+@import "media/contacts-media";
+@import "media/social-media";
+@import "media/footer-media";
+
+
+// libs
+@import "libs/hamburger";

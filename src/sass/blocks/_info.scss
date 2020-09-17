@@ -1,0 +1,36 @@
+.info {
+    padding-bottom: 300px;
+    position: relative;
+    &__title {
+        font-size: 36px;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    &__video {
+        margin: 60px auto 0 auto;
+        width: 90%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50px;
+    }
+    &__video-img {
+        width: 100%;
+    }
+}
+.logo-min {
+    &__title {
+        font-size: 24px;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    &__img {
+    }
+    &__text {
+        margin-top: 10px;
+        font-size: 9px;
+        line-height: 11px;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,163 @@
+@media (max-width: 1350px) {
+    .contacts {
+        &__container {
+            margin-left: 10%;
+            width: 85%;
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .contacts {
+        padding: 120px 15px 75px 15px;
+        &__container {
+            width: 90%;
+        }
+        &__title {
+            font-size: 30px;
+            letter-spacing: 1px;
+        }
+        &__descr {
+            margin: 30px 0px 40px 0px;
+            font-size: 13px;
+        }
+        &__area {
+            height: 165px;
+        }
+
+    }
+}
+
+
+@media (max-width: 1090px) {
+    .contacts {
+        &__list-item {
+            margin-bottom: 15px;
+            font-size: 13px;
+        }
+    }
+}
+
+
+@media (max-width: 991px) {
+    .contacts {
+        padding: 70px 15px 50px 15px;
+        &__container {
+            margin-left: 0;
+            grid-template-columns: 1fr;
+            align-content: center;
+            width: 100%;
+            
+        }
+        &__col {
+            text-align: center;
+            margin-right: 0;
+            &:last-child {
+                margin-top: 70px;
+            }
+        }
+        &__descr {
+            margin-right: auto;
+            margin-left: auto;
+            width: 80%;
+        }
+        &__sub-container {
+            justify-content: center;
+        }
+        &__min-title {
+            margin-bottom: 20px;
+        }
+        &__list-item {
+            &:first-child {
+                width: 90%;
+            }
+        }
+        &__form {
+            margin: 0 auto;
+            width: 70%;
+        }
+        &__input {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: .5px solid #D0D0D0;
+        }
+        &__area {
+            height: 150px;
+        }
+        &__btn {
+            display: block;
+            margin-right: auto;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    
+}
+
+@media (max-width: 575px) {
+    .contacts {
+        &__container {
+            width: 100%;
+            margin: 0;
+        }
+        &__col {
+            &:last-child {
+            }
+        }
+        &__title {
+            margin: 0 auto;
+            font-size: 25px;
+            width: 90%;
+        }
+        &__descr {
+            font-size: 15px;
+        }
+        &__sub-container {
+            flex-direction: column;
+        }
+        &__min-col {
+            margin-bottom: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+            text-align: center;
+            &:last-child {
+                margin: 0 auto;
+            }
+        }
+        &__min-title {
+            font-size: 23px;
+            letter-spacing: 1px;
+        }
+        &__list {
+            width: 100%;
+        }
+        &__list-item {
+            font-size: 16px;
+            &:first-child {
+                width: 100%;
+            }
+        }
+        &__list-link {
+            font-size: 16px;
+        }
+        &__form {
+            width: 90%;
+        }
+        &__input {
+        }
+        &__area {
+        }
+        &__btn {
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .contacts {
+        &__min-col {
+            width: 100%;
+        }
+    }
+}

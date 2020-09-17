@@ -1,0 +1,95 @@
+.contacts {
+    padding: 145px 0px 95px 0px;
+    font-weight: 300;
+    &__container {
+        margin-left: 20%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 70%;
+    }
+    &__col {
+        text-align: left;
+        margin-right: 15px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__title {
+        font-size: 36px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    &__descr {
+        margin: 40px 0 60px 0;
+        font-size: 14px;
+        color: #616161;
+        width: 90%;
+        line-height: 18px;
+        letter-spacing: .3px;
+    }
+    &__sub-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__min-col {
+        &:last-child {
+            margin-left: 20px;
+        }
+    }
+    &__min-title {
+        margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+    &__list {
+    }
+    &__list-item {
+        margin-bottom: 30px;
+        padding: 5px 0px 5px 30px;
+        font-size: 14px;
+        background: url(../images/icons/placeholder.svg) no-repeat;
+        background-size: 25px;
+        background-position: 0 center;
+        &:nth-child(2) {
+            background: url(../images/icons/smartphone.svg) no-repeat;
+            background-size: 23px;
+        }
+        &:last-child {
+            background: url(../images/icons/mail.svg) no-repeat;
+            margin-bottom: 0;
+            background-size: 25px;
+        }
+    }
+    &__list-link {
+        font-size: 14px;
+        color: #000;
+        text-decoration: none;
+    }
+    &__form {
+    }
+    &__input {
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+        font-size: 14px;
+        color: #616161;
+        width: 100%;
+        border: none;
+        border-bottom: .5px solid #D0D0D0;
+        outline: none;
+    }
+    &__area {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        padding: 15px 20px;
+        width: 100%;
+        border: .5px solid #D0D0D0;
+        height: 210px;
+        resize: none;
+        outline: none;
+    }
+    &__btn {
+        padding: 12px 35px;
+        background-color: $main-color;
+        text-transform: uppercase;
+        border: none;
+    }
+}

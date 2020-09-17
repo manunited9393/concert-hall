@@ -1,0 +1,22 @@
+.social {
+    padding: 120px 0px 0px 0px;
+    background-color: #F9F7F7;
+    &__title {
+        font-size: 36px;
+        text-transform: uppercase;
+        color: #222222;
+    }
+    &__content {
+        margin-top: 90px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-rows: 200px;
+        grid-auto-rows: 200px;
+        row-gap: 15px;
+    }
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,38 @@
+.footer {
+    padding: 40px 0px;
+    background-color: #E5E5E5;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__copy {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__socials {
+    }
+    &__social-element {
+        margin-right: 20px;
+        font-size: 14px;
+        color: #000;
+        text-decoration: none;
+        position: relative;
+        &:after {
+            content: '';
+            position: absolute;
+            width: 15px;
+            height: 1.5px;
+            background-color: #000;
+            top: 50%;
+            right: 0;
+            transform: translate(120%, -50%);
+        }
+        &:last-child {
+            margin: 0;
+            &:after {
+                display: none;
+            }
+        }
+    }
+}

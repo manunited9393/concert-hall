@@ -1,0 +1,28 @@
+.about {
+    background: url('../images/about-bg.png') center center/cover no-repeat;
+    padding: 120px 0px;
+    &__title {
+        font-weight: 300;
+        font-size: 36px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    &__buttons {
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+    }
+    &__btn {
+        padding: 23px 58px;
+        background-color: #fff;
+        font-weight: 300;
+        text-transform: uppercase;
+        border: none;
+        font-size: 16px;
+        &:first-child {
+            margin-right: 90px;
+        }
+    }
+}
+.container {
+}

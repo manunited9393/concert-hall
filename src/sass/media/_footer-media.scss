@@ -1,0 +1,25 @@
+@media (max-width: 767px) {
+    .footer {
+        &__copy {
+            font-size: 12px;
+        }
+        &__social-element {
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .footer {
+        padding-bottom: 10px;
+        &__content {
+            flex-direction: column-reverse;
+        }
+        &__copy {
+            margin-top: 20px;
+        }
+        &__social-element {
+            font-size: 13px;
+        }
+    }
+}

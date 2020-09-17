@@ -1,0 +1,30 @@
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+    .info {
+        padding-bottom: 220px;
+    }
+}
+
+@media (max-width: 767px) {
+    .info {
+        padding-bottom: 200px;
+        &__video {
+            top: 80px;
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .info {
+        &__video {
+            top: 40px;
+            padding: 0;
+        }
+        
+    }
+}
+
